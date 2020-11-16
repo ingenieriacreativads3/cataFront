@@ -1,0 +1,180 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+}
+
+.main {
+  overflow: hidden;
+}
+
+
+/* SECCION SERVICIOS ADICIONALES */
+
+.center-elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .contenedor-subcategoria{
+    width: 100%; 
+} */
+
+.img-experiencias {
+  object-fit: cover;
+  width: 100%;
+  min-height: 400px;
+  filter: contrast(80%);
+}
+
+.img-experiencias:hover {
+  opacity: 0.8;
+}
+
+.details-experiencias {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.4em;
+  border-top: 1px solid white;
+  width: 80%;
+  text-shadow: 1px 1px 10px #646464;
+}
+
+.name-experiencias {
+    line-height: 1.2;
+    padding-top: 2px;
+}
+.details-experiencias p {
+  font-size: 0.5em;
+}
+
+.divider-mobile {
+  margin-top: 10px;
+}
+
+.ingles {
+  filter: grayscale(1);
+}
+
+/* / RESPONSIVE
+
+   ========================================================================= /
+ 
+/ Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- / */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .details-experiencias {
+    font-size: 1.1em;
+  }
+
+  .img-experiencias {
+    min-height: 280px;
+  }
+}
+
+/* / Móviles en horizontal o tablets en vertical
+          ------------------------------------------------------------------------- / */
+
+@media (max-width: 768px) {
+}
+
+/* / Móviles en vertical
+          ------------------------------------------------------------------------- */
+
+@media (max-width: 480px) {
+  .details-experiencias {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    width: 90%;
+  }
+
+  .divider-mobile {
+    position: relative;
+    margin: 10px 0px;
+  }
+
+  .nav {
+    display: inline !important;
+  }
+}

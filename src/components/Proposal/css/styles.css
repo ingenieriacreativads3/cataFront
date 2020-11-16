@@ -1,0 +1,317 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.perfil {
+  margin-top: 25px;
+}
+.tituloDatos {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.main button {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.main button:hover {
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.45);
+  transition: all 0.3s ease-out;
+  opacity: 0.9;
+}
+
+.contenedor textarea:focus,
+input:focus,
+input[type]:focus {
+  border-color: #4d316d;
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+    0 0 5px rgba(77, 49, 109, 0.5);
+  outline: 0 none;
+}
+
+.areatexto {
+  border: 1px solid #000;
+}
+.areatexto-titulo {
+  border: 1px solid #000;
+  height: 40px;
+}
+.precioimagen {
+  text-align: right;
+}
+.precioimagen img {
+  width: 50%;
+}
+.precioinputs label {
+  width: 60%;
+  float: left;
+  font-size: 15px;
+}
+.precioinputs input {
+  width: 40%;
+  float: left;
+}
+
+.signo-pesos {
+    background-color: #2e0557;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+  }
+
+.cargarproductoDiv input[type="file"] {
+  display: none;
+}
+.cargarproducto {
+  width: 70%;
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  background-color: #2e0557;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  border: none;
+  font-weight: 400 !important;
+}
+.form-check-label {
+  margin-top: 10px;
+}
+.form-check-input {
+  margin-top: 15px;
+}
+
+.elegir-subcategoria a {
+  color: #2e0557;
+}
+
+.boton {
+  background-color: #2e0557;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  border: none;
+  font-weight: 400 !important;
+}
+.margentop {
+  margin-top: 50px;
+}
+
+.ingles {
+  filter: grayscale(1);
+}
+
+/* SOCIAL MEDIA */
+
+.fl-fl {
+  background: #2e0557;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -150px;
+  z-index: 1000;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+.fas {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fab {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px !important;
+  vertical-align: top !important;
+}
+.fl-fl span {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px !important;
+  vertical-align: top !important;
+}
+
+.float-faq {
+  top: 160px;
+}
+
+.float-wp {
+  top: 215px;
+}
+
+.float-tw {
+  top: 270px;
+}
+
+.float-fb {
+  top: 325px;
+}
+
+.float-ig {
+  top: 380px;
+}
+
+/* FIN SOCIAL MEDIA */
+/* / RESPONSIVE
+
+   ========================================================================= /
+ 
+/ Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- / */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+/* / Móviles en horizontal o tablets en vertical
+         ------------------------------------------------------------------------- / */
+
+@media (max-width: 768px) {
+}
+
+/* / Móviles en vertical
+         ------------------------------------------------------------------------- */
+
+@media (max-width: 480px) {
+  .boton {
+    font-size: 20px !important;
+  }
+
+  .nav {
+    display: inline !important;
+  }
+}

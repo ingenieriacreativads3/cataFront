@@ -1,0 +1,250 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+
+.product-img-container {
+    overflow-y: scroll;
+    min-height: 360px;
+    max-height: 360px;
+}
+
+.product-img-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.product-img-container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.product-img-container::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.product-img-container::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.product-img-container::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.product-img-container::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+.product-img-container img{
+    width: 100%;
+}
+.product-img-item {
+    padding: 10px 20px;
+}
+
+.product-photo {
+
+}
+.product-photo img{
+    object-fit: cover;
+    width: 100%;
+    min-height: 360px;
+    filter: contrast(80%);
+}
+
+
+.product-description {
+  
+}
+
+.product-category {
+    font-size: 16px;
+}
+
+.product-title {
+    font-size: 22px;
+    font-weight: 500;
+    border-top: 1px solid #4B2E6B;
+
+}
+.product-info {
+    /* overflow-y: scroll;
+    max-height: 140px; */
+}
+
+.product-info::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.product-info::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.product-info::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.product-info::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.product-info::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.product-info::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.product-description button{
+    background-color: #4D316D;
+    border: none;    
+}
+.product-description button:hover{
+    background-color: #6A49AA;
+    border: none;    
+}
+
+.product-price {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.product-img-item-mobile {
+    margin: 10px;
+}
+.product-img-item-mobile img{
+    width: 100%;
+}
+
+
+
+
+/* CALIFICACIONES */
+
+.points {
+    font-size: 56px;
+
+}
+
+.progress{
+    margin: 7px 0px;
+    height: 10px;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #4B2E6B;
+}
+
+.list-points {
+    display: flex ;
+    flex-direction: column;
+    line-height: 1;
+    margin-right: -15px;
+}
+
+.based-on {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.product-title-noline {
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+
+/* 
+
+OPINIONES */
+
+.producto-review nav a{
+    color: #4D316D;
+}
+
+
+
+.review-title {
+    font-weight: 600;
+}
+
+.thumbs i {
+    padding: 0px 5px;
+}
+.thumbs a {
+    text-decoration: none;
+    color: #212529;
+}
+.thumbs a:hover{
+    text-decoration: none;
+    color: #4D316D;
+}
+
+
+
+.areatexto:focus {
+    border-color: #4D316D;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 5px rgba(77,49,109,0.5);
+    outline: 0 none;
+}
+
+
+.enviar-opinion button{
+    background-color: #4D316D;
+    border: none;    
+}
+.enviar-opinion button:hover{
+    background-color: #6A49AA;
+    border: none;    
+}
+
+
+@media (max-width: 2560px) {
+    .list-points {  
+        margin-right: -100px;
+    }
+  
+  }
+@media (max-width: 1024px) {
+    .list-points {  
+        margin-right: -75px;
+    }
+  
+  }
+
+@media (max-width: 768px) {
+    .list-points {  
+        margin-right: -35px;
+    }
+  
+  }
+
+@media (max-width: 480px) {
+    .list-points {
+        margin-right: -55px;
+    }
+  
+  }
+
+@media (max-width: 320px) {
+    .list-points {
+        margin-right: -25px;
+    }
+  
+  }

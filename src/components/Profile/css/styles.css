@@ -1,0 +1,413 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+}
+
+.title-perfil h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  margin: 15px 0px;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.tituloDatos {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 30px 0px 10px 0px;
+}
+
+.fotoperfil {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+.fotoperfil img {
+  width: 100%;
+}
+.fotoperfil input[type="file"] {
+  display: none;
+}
+.subirfoto {
+font-weight: 600;
+  cursor: pointer;
+}
+.subirfoto:hover {
+font-weight: 600;
+  cursor: pointer;
+  color: #2e0557;
+}
+
+.datosperfil {
+  background-color: #f2f2f2;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-left:15px solid white;
+}
+
+.datosperfil label {
+  float: left !important;
+   width: 30% !important;
+  border-bottom: 1px solid #000; 
+  height: calc(1.5em + 0.75rem + 2px); 
+  padding-top: 10px;
+}
+.datosperfil a {
+  float: left !important;
+  width: 10% !important;
+  border-bottom: 1px solid #000;
+  height: calc(1.7em + 0.75rem + 2px); 
+  padding-top: 10px;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+}
+.datosperfil input {
+  float: left !important;
+  width: 60% !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #000 ;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px !important;
+}
+.datosperfil input:focus{
+    box-shadow: none;
+}
+.datosperfil input::placeholder{
+    color: grey;
+  }
+  
+
+.imagenPesos {
+  background-color: #f2f2f2;
+}
+
+.signo-pesos {
+  background-color:white;
+  border-radius: 50%;
+  padding: 5px 30px;
+  font-size: 60px;
+  font-weight: 600;
+}
+.estadowingcoins {
+  background-color: #f2f2f2;
+
+}
+.estadowingcoins h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 500 !important;
+}
+
+.estadowingcoins h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 500 !important;
+}
+.detalles {
+  background-color: #f2f2f2;
+  padding-top: 15px;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+.detalles span {
+  font-size: 16px;
+}
+
+.detalles a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+}
+.todo {
+  padding-bottom: 15px;
+}
+.gris {
+  color: grey;
+}
+.progress {
+  height: 30px;
+}
+
+.progress-bar {
+  background-color: green;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.botonservicio {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.boton {
+  background-color: #2e0557;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  border: none;
+  font-weight: 400 !important;
+}
+
+
+.boton:hover{
+    background-color: #4D316D;
+    border: none;    
+}
+
+.boton:active{
+    background-color:#282828 !important;    
+}
+.boton:visited{
+    background-color:#282828 !important;   
+}
+
+.modal-body input{
+    border-color: #4D316D;  
+}
+.boton:focus, boton:focus, boton[type]:focus {
+    border-color: #4D316D;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 5px rgba(77,49,109,0.5);
+    outline: 0 none;
+}
+ 
+
+
+
+.margentop {
+  margin-top: 50px;
+}
+
+.ingles {
+  filter: grayscale(1);
+}
+
+/* SOCIAL MEDIA */
+
+.fl-fl {
+  background: #2e0557;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -150px;
+  z-index: 1000;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+.fas {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fab {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px !important;
+  vertical-align: top !important;
+}
+.fl-fl span {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px !important;
+  vertical-align: top !important;
+}
+
+.float-faq {
+  top: 160px;
+}
+
+.float-wp {
+  top: 215px;
+}
+
+.float-tw {
+  top: 270px;
+}
+
+.float-fb {
+  top: 325px;
+}
+
+.float-ig {
+  top: 380px;
+}
+
+/* FIN SOCIAL MEDIA */
+
+/* / RESPONSIVE
+
+   ========================================================================= /
+ 
+/ Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- / */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+/* / Móviles en horizontal o tablets en vertical
+         ------------------------------------------------------------------------- / */
+
+@media (max-width: 768px) {
+
+    .datosperfil {
+        border-left: none;
+    }
+
+}
+
+/* / Móviles en vertical
+         ------------------------------------------------------------------------- */
+
+@media (max-width: 480px) {
+  .datosperfil {
+    margin-left: 0px !important;
+  }
+  .datosperfil label {
+    height: calc(1.5em + 1rem + 20px) !important;
+    padding-top: 15px !important;
+  }
+
+  .datosperfil a {
+    height: calc(1.7em + 1rem + 20px) !important;
+    padding-top: 15px !important;
+  }
+  .datosperfil input {
+    height: calc(1.5em + 1rem + 20px) !important;
+  }
+
+  .imagenPesos img {
+    padding-left: 0px !important;
+  }
+
+  .boton {
+    font-size: 18px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .nav {
+    display: inline !important;
+  }
+}

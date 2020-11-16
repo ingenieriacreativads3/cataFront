@@ -1,0 +1,431 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+}
+
+/* ---------------------------------------------------
+   BTN PARA ABRIR LOS FILTROS
+----------------------------------------------------- */
+
+.navbar {
+  padding: 15px 0px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+.navbar button {
+  background-color: #4b2e6b;
+}
+.navbar button:hover {
+  background-color: grey;
+}
+.navbar button:active {
+  background-color: #4b2e6b;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #eeeeee;
+  color: #282828;
+  transition: all 0.3s;
+  font-family: "Raleway", sans-serif;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+}
+
+#sidebar ul.components {
+  padding: 0px 5px;
+}
+
+#sidebar ul p {
+  color: #282828;
+  padding: 5px 10px;
+}
+
+#sidebar ul li a {
+  padding: 5px;
+  font-size: 1.1em;
+  display: block;
+  color: #282828;
+}
+
+#sidebar ul li a:hover {
+  color: #4b2e6b;
+  background: #eeeeee;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  color: #282828;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 20px !important;
+  background: #eeeeee;
+}
+
+.products-title {
+  font-size: 26px;
+}
+
+.min-max input {
+  font-size: 14px;
+}
+.min-max input:focus {
+  border-color: #4b2e6b !important;
+  box-shadow: 0 0 0 0.2rem rgba(74, 46, 105, 0.2) !important;
+}
+.min-max button {
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: #4b2e6b;
+}
+.min-max button:hover {
+  background-color: grey;
+}
+.min-max button:focus {
+  background-color: #4b2e6b !important;
+  box-shadow: 0 0 0 0.2rem rgba(74, 46, 105, 0.2) !important;
+}
+
+.min-max .btn-info.focus,
+.btn-info:focus {
+  color: #fff;
+  background-color: #4b2e6b !important;
+  border-color: #4b2e6b !important;
+  box-shadow: 0 0 0 0.2rem rgba(74, 46, 105, 0.2) !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE WRAPPER
+----------------------------------------------------- */
+
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    PRODUCTOS
+----------------------------------------------------- */
+.img-product {
+  object-fit: cover;
+  width: 100%;
+  min-height: 260px;
+  filter: contrast(80%);
+}
+
+.img-product:hover {
+  width: 100%;
+  height: 100%;
+}
+
+.product-box {
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.products-box-category {
+  font-size: 13px;
+}
+
+.products-text {
+  padding: 0px 10px;
+  position: relative;
+  z-index: 100;
+}
+.products-text a {
+  text-decoration: none;
+  color: #282828;
+}
+.products-text a:hover {
+  text-decoration: none;
+  color: #603f8d;
+}
+
+.products-description {
+  border-top: 1px solid #282828;
+  font-weight: 500;
+}
+
+.products-description p {
+  font-size: 17px;
+}
+
+.center-elements {
+  width: 90%;
+}
+
+.products {
+  margin: 10px;
+}
+
+.products button {
+  background-color: #4b2e6b;
+  color: white;
+}
+.products button:hover {
+  background-color: #603f8d;
+  color: white;
+}
+.products button:focus {
+  color: #fff;
+  background-color: #4b2e6b !important;
+  border-color: #4b2e6b !important;
+  box-shadow: 0 0 0 0.2rem rgba(74, 46, 105, 0.2) !important;
+}
+
+/* OVERLAY */
+
+.content-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  width: 90%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 40%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+
+.content-details p {
+  color: #fff;
+  font-size: 1em;
+}
+
+.fadeIn-bottom {
+  top: 80%;
+}
+
+/* ---------------------------------------------------
+    PAGINATION
+----------------------------------------------------- */
+
+.pagination-products ul li a {
+  color: #282828;
+}
+.pagination-products ul li a:hover {
+  color: #4b2e6b;
+}
+.pagination-products ul li a:focus {
+  box-shadow: 0 0 0 0.2rem rgba(74, 46, 105, 0.2) !important;
+}
+.pagination-products ul li a:active {
+  background-color: #4b2e6b !important;
+  color: #eeeeee;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #sidebarCollapse span {
+    display: none;
+  }
+
+  .img-product {
+    object-fit: cover;
+    width: 100%;
+    min-height: 180px;
+    filter: contrast(80%);
+  }
+
+  .content:hover .content-details {
+    top: 40%;
+    left: 50%;
+    opacity: 1;
+  }
+  .content-details {
+    padding: 25px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+}
+@media (max-width: 480px) {
+}

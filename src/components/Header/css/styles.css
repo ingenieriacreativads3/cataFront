@@ -1,0 +1,95 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+.header-menu {
+    border-bottom: 2px solid #4D316D;
+}
+
+.nav-item a:visited {
+    background-color:#EFEFEF !important;   
+
+}
+
+.sesion a{
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+.user-information {
+    display: flex;
+}
+
+.user-photo {
+    padding: 5px 15px;
+}
+
+.user-photo button {
+    background-color: #4D316D;
+    text-transform: uppercase;
+    font-size: .7em;
+
+}
+
+.header-menu ul li a{
+    color: #282828;
+    font-weight: 600;
+}
+
+.header-menu ul li a:hover{
+    color: #2E0557;
+    font-weight: 600;
+    transition: all 0.5s ease-out;
+}
+
+.header-menu i {
+    font-size: 2rem;
+    color: #2E0557;
+}
+
+
+
+
+
+
+
+.ingles {
+    filter: grayscale(1);
+}
+
+
+@media screen and (max-width: 480px) { 
+   
+   /*MENU */
+
+        .nav {
+            display: inline !important;
+        }
+
+     
+}
+    
+
+

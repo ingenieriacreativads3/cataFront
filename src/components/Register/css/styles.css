@@ -1,0 +1,87 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+/* MODAL LOGIN  */
+
+.modal-body button{
+    background-color: #4D316D;
+    border: none;    
+}
+.modal-body button:hover{
+    background-color: #6A49AA;
+    border: none;    
+}
+
+.modal-body button:active{
+    background-color:#282828 !important;    
+}
+.modal-body button:visited{
+    background-color:#282828 !important;   
+}
+
+.modal-body input{
+    border-color: #4D316D;  
+}
+.modal-body textarea:focus, input:focus, input[type]:focus {
+    border-color: #4D316D;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 5px rgba(77,49,109,0.5);
+    outline: 0 none;
+}
+ 
+
+#bg-modal {
+    background-image: url(../img/bg-modal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.ingreso-redes i {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+  .ingreso-redes .gmail {
+      background: #dd4b39;
+      color: #fff;
+      margin: 10px
+  }
+  .ingreso-redes .facebook {
+      background: #3b5998;
+      color: #fff;
+      margin: 10px;
+  }
+  .ingreso-redes .gmail:hover {
+      background: #a52e1e;
+      color: #fff;
+      margin: 10px;
+  
+  }
+  .ingreso-redes .facebook:hover{
+      background: #1d3569;
+      color: #fff;
+      margin: 10px;
+  }
+  

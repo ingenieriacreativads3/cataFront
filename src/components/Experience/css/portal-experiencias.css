@@ -1,0 +1,276 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+
+.main {
+    overflow: hidden;
+}
+
+.main button {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.main button:hover {
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.45);
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.45);
+    transition: all 0.3s ease-out;
+    opacity: .9;
+
+}
+
+.header-menu {
+    border-bottom: 2px solid #4D316D;
+}
+
+.nav-item a:visited {
+    background-color:#EFEFEF !important;   
+
+}
+
+.sesion a{
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+.user-information {
+    display: flex;
+}
+
+.user-photo {
+    padding: 5px 15px;
+}
+
+.user-photo button {
+    background-color: #4D316D;
+    text-transform: uppercase;
+    font-size: .7em;
+
+}
+
+.header-menu ul li a{
+    color: #282828;
+    font-weight: 600;
+}
+
+.header-menu ul li a:hover{
+    color: #2E0557;
+    font-weight: 600;
+    transition: all 0.5s ease-out;
+}
+
+.header-menu i {
+    font-size: 2rem;
+    color: #2E0557;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-hero {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #4D316D;
+  }
+  
+.content-video {
+    position: absolute;
+    display: flex;
+  }
+
+
+
+.footer {
+    background-color: #282828;
+    color: white;
+    border-bottom: 8px solid #4D316D;
+    padding: 25px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: .9rem;
+    /* margin-top: 50px; */
+}
+
+.footer h5 {
+    text-transform: uppercase;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+.footer p:hover {
+    color: #CECECE;
+    transition: all 0.5s ease-out;
+}
+
+.separador-footer{
+    width: 60px;
+    height: 2px;
+    background-color: #4D316D;
+    margin: 8px 0px;
+}
+
+.rrss a {
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 7px;
+}
+.rrss a:hover {
+    color: #4D316D;
+    transition: all 0.5s ease-out;
+}
+
+
+/* MODAL LOGIN  */
+
+.modal-body button{
+    background-color: #4D316D;
+    border: none;    
+}
+.modal-body button:hover{
+    background-color: #6A49AA;
+    border: none;    
+}
+
+.modal-body button:active{
+    background-color:#282828 !important;    
+}
+.modal-body button:visited{
+    background-color:#282828 !important;   
+}
+
+.modal-body input{
+    border-color: #4D316D;  
+}
+.modal-body textarea:focus, input:focus, input[type]:focus {
+    border-color: #4D316D;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 5px rgba(77,49,109,0.5);
+    outline: 0 none;
+}
+ 
+
+#bg-modal {
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* SECCION EXPERIENCIAS */
+
+.center-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-experiencias {
+    width: 100%;
+    height: 100%;
+    filter: contrast(80%);
+}
+
+.img-experiencias:hover {
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+
+.details-experiencias {
+position: absolute;
+bottom:0;
+padding: 10px;
+color: white;
+font-weight: 400;
+font-size: 1.4em;
+border-top: 1px solid white;
+width: 80%;
+}
+
+.details-experiencias p{
+    font-size: .5em;
+}
+
+.divider-mobile {
+    margin-top: 10px;
+}
+
+.ingles {
+    filter: grayscale(1);
+}
+
+/* / RESPONSIVE
+
+   ========================================================================= /
+ 
+/ Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- / */
+
+   @media (min-width: 768px) and (max-width: 1199px) {}
+   .details-experiencias {
+    font-size: 1.1em;
+    }   
+
+   /* / Móviles en horizontal o tablets en vertical
+         ------------------------------------------------------------------------- / */
+   
+   @media (max-width: 768px) {
+    .details-experiencias {
+        font-size: 1.6em;
+        margin-bottom: 15px;
+        }   
+  
+   }
+   
+   
+   /* / Móviles en vertical
+         ------------------------------------------------------------------------- */
+   
+   @media (max-width: 480px) {
+
+
+    .details-experiencias {
+        font-size: 1.6em;
+        margin-bottom: 15px;
+        width: 90%;
+        } 
+
+        .divider-mobile {
+            position: relative;
+            margin: 10px 0px;
+        }
+
+        .nav {
+            display: inline !important;
+        }
+
+
+   }
